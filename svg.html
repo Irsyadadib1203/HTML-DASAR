@@ -14,9 +14,8 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         header {
-            background-color: #666; 
-            padding: 30px;
-            margin-top: 20px;
+            background-color: rgb(134, 9, 9); 
+            padding: 30px; 
             text-align: center; 
             font-size: 35px; 
             color: white;
@@ -24,7 +23,7 @@
         nav {
             float: left;
             width: 30%;
-            height: 300px;  /*only for demonstration, should be removed  */
+            height: 600px;  /*only for demonstration, should be removed  */
             background: #ccc;
             padding: 20px;
         }
@@ -37,9 +36,8 @@
             padding: 20px;
             width: 70%;
             background-color: #f1f1f1;
-            height: 300px; /* only for demonstration, should be removed */ 
-        }
-        section::after {
+            height: 600px; /* only for demonstration, should be removed */ 
+        }section::after {
             content: "";
             display: table;
             clear: both;
@@ -76,8 +74,20 @@
         </nav>
         <article>
             <h1>Judul Artikel</h1>
-            <!-- kontent disini -->
-            <p> Kesimpulan Dari Latihan Diatas Adalah Penggunaan Style bisa Di Terapkan Di dalam Elemen Head. Selain Itu Pada Latihan Ini Kita Belajar tentang Penerapan Header dan Footer</p>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+            </svg>
+            <svg width="100" height="100">
+                <rect width="400" height="100" style="fill:rgb(0,0,255); stroke-width:10;stroke: rgb(0,0,0)" />
+            </svg>
+            <svg width="400" height="180">
+                <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+                    style="fill:red; stroke: black; stroke-width:5; opacity:0.5" />
+            </svg>
+            <svg height="260" width="400">
+                <polygon points="220,10 300,210 170,250 123,234" style="fill:lime;stroke:purple;stroke-width:3" />
+            </svg>
+            <p> Kesimpulan Dari Latihan Diatas Adalah Penggunaan elemen svg. dalam elemen svg terdapat beberapa elemen yang sering diunakan seperti circle yang menggambarkan sebuah lingkaran dan rect menggambarkan sebuah persegi</p>
         </article>
     </section>
     <footer>

@@ -15,8 +15,7 @@
         }
         header {
             background-color: #666; 
-            padding: 30px;
-            margin-top: 20px;
+            padding: 30px; 
             text-align: center; 
             font-size: 35px; 
             color: white;
@@ -24,7 +23,7 @@
         nav {
             float: left;
             width: 30%;
-            height: 300px;  /*only for demonstration, should be removed  */
+            height: 500px;  /*only for demonstration, should be removed  */
             background: #ccc;
             padding: 20px;
         }
@@ -37,9 +36,8 @@
             padding: 20px;
             width: 70%;
             background-color: #f1f1f1;
-            height: 300px; /* only for demonstration, should be removed */ 
-        }
-        section::after {
+            height: 500px; /* only for demonstration, should be removed */ 
+        }section::after {
             content: "";
             display: table;
             clear: both;
@@ -76,8 +74,17 @@
         </nav>
         <article>
             <h1>Judul Artikel</h1>
-            <!-- kontent disini -->
-            <p> Kesimpulan Dari Latihan Diatas Adalah Penggunaan Style bisa Di Terapkan Di dalam Elemen Head. Selain Itu Pada Latihan Ini Kita Belajar tentang Penerapan Header dan Footer</p>
+            <video width="420" height="315" controls autoplay>
+                <source src="html_advance/gambar/video/Skateboard.mp4" type="video/mp4">
+                Browser tidak mendukung.
+            </video>
+            <iframe width="420" height="315" 
+                src="https://www.youtube.com/embed/fn3KWM1kuAw">
+            </iframe>
+            <p> Kesimpulan Dari Latihan Diatas Adalah Penggunaan elemen Video dengan Menambahkan Attribute autoplay setelah attribute control.
+                di dalam elemen video terdapat elemen source yang digunakan untuk Menentukan video yang akan ditampilkan.Selain itu juga ada penggunaan 
+                iframe yang mengarahkan ke link video youtube,width dan height yang mengatur seberapa luas video akan ditampilkan.
+            </p>
         </article>
     </section>
     <footer>

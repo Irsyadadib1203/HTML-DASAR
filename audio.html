@@ -15,8 +15,7 @@
         }
         header {
             background-color: #666; 
-            padding: 30px;
-            margin-top: 20px;
+            padding: 30px; 
             text-align: center; 
             font-size: 35px; 
             color: white;
@@ -38,8 +37,7 @@
             width: 70%;
             background-color: #f1f1f1;
             height: 300px; /* only for demonstration, should be removed */ 
-        }
-        section::after {
+        }section::after {
             content: "";
             display: table;
             clear: both;
@@ -76,8 +74,17 @@
         </nav>
         <article>
             <h1>Judul Artikel</h1>
-            <!-- kontent disini -->
-            <p> Kesimpulan Dari Latihan Diatas Adalah Penggunaan Style bisa Di Terapkan Di dalam Elemen Head. Selain Itu Pada Latihan Ini Kita Belajar tentang Penerapan Header dan Footer</p>
+            <audio controls autoplay>
+                <source src="html_advance/gambar/audio/suara.mp3" type="audio/mpeg">
+                Browser tidak mendukung pemutar audio.
+            </audio><br>
+            <audio controls muted>
+                <source src="html_advance/gambar/audio/suara1.mp3" type="audio/mpeg">
+                Browser tidak mendukung pemutar audio.
+            </audio><br>
+            <p> Kesimpulan Dari Latihan Diatas Adalah Penggunaan elemen Audio yang didalam setiap audio terdapat attribute setelah kontrol seperti autoplay dan
+                muted.
+            </p>
         </article>
     </section>
     <footer>
